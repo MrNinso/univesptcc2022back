@@ -42,7 +42,7 @@ services:
                 #- PHP_HEALTHCHECK_CONTAINER=${APP_SERVICE:-php}
                 # - PHP_HEALTHCHECK_PORT=9091
                 - http_proxy
-                - https_proxy
+                # - https_proxy
                 - no_proxy
         volumes:
             - .:/var/www/html
